@@ -1,5 +1,5 @@
 # About The Project
-This Java 2D spaceship shooter game was developed by myself only for purpose of education and was written using Java only without the aid of a games engine. All assets were created by myself as shown in this readme.
+This spaceship shooter game includes an experimental custom Java 2D game engine developed by myself for purpose of education. It was written using Java only without the aid of additional tools. All assets were created by myself as shown in this readme.
 
 # Game Description
 
