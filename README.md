@@ -45,15 +45,15 @@ I chose to use a strong object orientated hierarchy in my class design for all v
 These include:
 
 -	Ship (Abstract class)
-  - EnemyShip  (Abstract class)
-    -	Tier1Ship
-    -	Tier2Ship
-  -	PlayerShip
--	PickUp  (Abstract class)
-  -	BombPickUp
-  -	ShieldPickUp
-  -	SpeedPickUp
-  -	RepairPickUp
+    - EnemyShip  (Abstract class)
+      -	Tier1Ship
+      -	Tier2Ship
+    -	PlayerShip
+-	PickUp (Abstract class)
+    -	BombPickUp
+    -	ShieldPickUp
+    -	SpeedPickUp
+    -	RepairPickUp
 -	Bullet
 
 ## Ship Assets
