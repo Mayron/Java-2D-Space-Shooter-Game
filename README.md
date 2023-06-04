@@ -3,6 +3,11 @@ This spaceship shooter game includes an experimental custom Java 2D game engine 
 
 The project was originally for a University assignment, but I kept working on it after completing the course. I use this project for studying the discipline of game engine development for personal curiousity.
 
+The game engine's entry point to run the game loop can be found here:
+https://github.com/Mayron/Space-Shooter-Java-2D-Game-Engine/blob/master/src/game/Game.java#L20
+
+Although, I am working on another game engine that handles FPS synchronisation far better than this project.
+
 # Game Description
 
 There is no main menu in the game and will start straight away once launched. You can fly off the screen with a camera following you and can wrap around the game world once you reach the edges of the map which will put you on the opposite side. The map size is roughly 4 times the size of a 1920x1080 resolution screen and the camera will stop following the player once they come close to the edges.
