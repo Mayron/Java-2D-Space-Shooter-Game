@@ -1,6 +1,8 @@
 # About The Project
 This spaceship shooter game includes an experimental custom Java 2D game engine developed by myself for purpose of education. It was written using Java only without the aid of additional tools. All assets were created by myself as shown in this readme.
 
+The project was originally for a University assignment, but I kept working on it after completing the course. I use this project for studying the discipline of game engine development for personal curiousity.
+
 # Game Description
 
 There is no main menu in the game and will start straight away once launched. You can fly off the screen with a camera following you and can wrap around the game world once you reach the edges of the map which will put you on the opposite side. The map size is roughly 4 times the size of a 1920x1080 resolution screen and the camera will stop following the player once they come close to the edges.
