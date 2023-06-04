@@ -43,6 +43,7 @@ I decided to control the game levelling system with three main classes: LevelMan
 I chose to use a strong object orientated hierarchy in my class design for all visible game objects that can be interacted with by having a GameObject class where all objects were stored and a large depth of other sub classes extend it to become more specific. 
 
 These include:
+
 -	Ship (Abstract class)
   - EnemyShip  (Abstract class)
     -	Tier1Ship
@@ -59,6 +60,14 @@ These include:
 ![PlayerShip2](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/a2f2ded2-6c70-48f6-b5dc-804a626028f7)
 ![T1EnemyShip2](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/df06b480-ce65-44e1-9c8b-e11a0f47820a)
 ![T2EnemyShip2](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/ae9f12f8-f0e7-41be-ac29-3a46f7263883)
+
+## Pick Up Assets
+![ActiveBombPickUp](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/4fd37b7f-c350-4b9c-9e2e-a9756e205d50)
+![ActiveRepairPickUp](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/37f3ff1c-d2c2-4c84-929d-2197419dc7c1)
+![ActiveShield](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/1f593d59-cd5d-4be0-a029-94764d304565)
+![ActiveShieldPickUp](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/ba16ced5-b1f3-40c0-977e-8bcb25477955)
+![ActiveSpeedPickUp](https://github.com/Mayron/Java-2D-Space-Shooter-Game/assets/5854995/1850e634-5a11-4405-9c2a-3375c607922b)
+
 
 This allowed me to re-use a lot of code and use abstract methods to avoid any errors which proved to save me a lot of time while debugging. I linked together (in a “has” relationship) an inventory object with the player so that when the player receives an object from the game world through the collision detection system, they could store it in the player’s inventory.
 
